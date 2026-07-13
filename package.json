@@ -1,0 +1,13 @@
+{
+  "name": "nexatech-store-demo",
+  "version": "1.0.0",
+  "description": "Tailwind CSS setup for NexaTech Store Demo plugin",
+  "private": true,
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\tailwindcss.cmd -i ./assets/src/input.css -o ./assets/dist/output.css --minify",
+    "watch": ".\\node_modules\\.bin\\tailwindcss.cmd -i ./assets/src/input.css -o ./assets/dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
